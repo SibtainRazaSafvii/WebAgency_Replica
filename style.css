@@ -3,10 +3,45 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gilroy-Bold', sans-serif;
+    color: white;
 
 
 }
 html,body{
     height: 100%;
     width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color:#111111;
+    /* This is to justify content on center of the web page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page1 h1{
+    font-size:9vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height:7vh;
+}
+.page1 p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.specialText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.specialText h4{
+    font-weight: 400;
+    font-size: small;
+    text-transform: lowercase;
+    padding: 5px 10px;
+    border: 1px solid #C1C1C1;
+    border-radius: 50px;
 }
